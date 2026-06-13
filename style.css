@@ -1,69 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ThusoUsizo</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+/* RESET */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+}
 
-<body>
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 15px 30px;
+}
 
-    <!-- NAVBAR -->
-    <nav>
-        <div class="logo">ThusoUsizo</div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-    </nav>
+.logo {
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+}
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Empowering Communities Through Education & Support</h1>
-            <p>
-                ThusoUsizo is dedicated to uplifting communities through education,
-                mentorship, and meaningful development programs.
-            </p>
-            <a href="#" class="btn">Learn More</a>
-        </div>
-    </section>
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
 
-    <!-- ABOUT -->
-    <section class="about">
-        <h2>About ThusoUsizo</h2>
-        <p>
-            We are a non-profit organisation focused on creating opportunities
-            for young people and communities through education, support, and empowerment initiatives.
-        </p>
-    </section>
+nav a:hover {
+    color: red;
+}
 
-    <!-- FOCUS AREAS -->
-    <section class="focus">
-        <h2>Our Focus Areas</h2>
+/* HERO */
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
 
-        <div class="card">
-            <h3>Education Support</h3>
-            <p>Helping learners with academic support and resources.</p>
-        </div>
+.hero h1 {
+    font-size: 45px;
+}
 
-        <div class="card">
-            <h3>Youth Empowerment</h3>
-            <p>Building leadership and life skills for young people.</p>
-        </div>
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+}
 
-        <div class="card">
-            <h3>Community Development</h3>
-            <p>Supporting initiatives that uplift communities.</p>
-        </div>
+.hero button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
 
-    </section>
+.hero button:hover {
+    background: darkred;
+}
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 ThusoUsizo. All Rights Reserved.</p>
-    </footer>
+/* SECTIONS */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
 
-</body>
-</html>
+.dark {
+    background: #f4f4f4;
+}
+
+/* CARDS */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
