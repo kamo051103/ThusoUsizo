@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThusoUsizo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo">ThusoUsizo</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Empowering Communities Through Education & Support</h1>
+            <p>
+                ThusoUsizo is dedicated to uplifting communities through education,
+                mentorship, and meaningful development programs.
+            </p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about">
+        <h2>About ThusoUsizo</h2>
+        <p>
+            We are a non-profit organisation focused on creating opportunities
+            for young people and communities through education, support, and empowerment initiatives.
+        </p>
+    </section>
+
+    <!-- FOCUS AREAS -->
+    <section class="focus">
+        <h2>Our Focus Areas</h2>
+
+        <div class="card">
+            <h3>Education Support</h3>
+            <p>Helping learners with academic support and resources.</p>
+        </div>
+
+        <div class="card">
+            <h3>Youth Empowerment</h3>
+            <p>Building leadership and life skills for young people.</p>
+        </div>
+
+        <div class="card">
+            <h3>Community Development</h3>
+            <p>Supporting initiatives that uplift communities.</p>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 ThusoUsizo. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
