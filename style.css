@@ -5,12 +5,13 @@ body{
     font-family:Arial, sans-serif;
     background:white;
     color:black;
+    line-height:1.6;
 }
 
-/* NAVBAR */
+/* NAVIGATION */
 
 nav{
-    background:black;
+    background:#003366;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -18,7 +19,7 @@ nav{
 }
 
 .logo{
-    color:red;
+    color:white;
     font-size:24px;
     font-weight:bold;
 }
@@ -38,17 +39,17 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:red;
+    color:#66b3ff;
 }
 
 /* HERO */
 
 .hero{
-    height:80vh;
+    height:85vh;
 
     background:
-    linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
-    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url('https://images.unsplash.com/photo-1516627145497-ae6968895b74');
 
     background-size:cover;
     background-position:center;
@@ -66,20 +67,20 @@ nav ul li a:hover{
 
 .hero h1{
     font-size:55px;
-    margin-bottom:10px;
+    max-width:900px;
+    margin-bottom:15px;
 }
 
 .hero p{
     max-width:700px;
     font-size:20px;
-    line-height:1.6;
 }
 
 .hero button{
-    margin-top:20px;
+    margin-top:25px;
     padding:15px 30px;
     border:none;
-    background:red;
+    background:#0066cc;
     color:white;
     font-size:16px;
     font-weight:bold;
@@ -88,23 +89,23 @@ nav ul li a:hover{
 }
 
 .hero button:hover{
-    background:darkred;
+    background:#004c99;
 }
 
 /* SECTIONS */
 
 .section{
-    padding:70px 30px;
+    padding:80px 30px;
     text-align:center;
 }
 
-.dark{
-    background:#f4f4f4;
+.section h2{
+    color:#0066cc;
+    margin-bottom:25px;
 }
 
-.section h2{
-    color:red;
-    margin-bottom:30px;
+.dark{
+    background:#f5f7fa;
 }
 
 /* CARDS */
@@ -114,32 +115,37 @@ nav ul li a:hover{
     justify-content:center;
     gap:25px;
     flex-wrap:wrap;
+    margin-top:30px;
 }
 
 .card{
-    width:250px;
+    width:260px;
     background:white;
     padding:25px;
-    border:2px solid red;
+    border:2px solid #0066cc;
     border-radius:10px;
-
     transition:0.3s;
 }
 
 .card:hover{
     transform:translateY(-8px);
-    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
 }
 
 .card h3{
-    color:red;
+    color:#0066cc;
 }
 
-/* GALLERY */
+/* GALLERY PAGE */
 
 .gallery-section{
-    padding:70px 30px;
+    padding:80px 30px;
     text-align:center;
+}
+
+.gallery-section h1{
+    color:#0066cc;
+    margin-bottom:40px;
 }
 
 .gallery{
@@ -153,8 +159,7 @@ nav ul li a:hover{
     height:250px;
     object-fit:cover;
     border-radius:10px;
-    border:3px solid red;
-
+    border:3px solid #0066cc;
     transition:0.3s;
 }
 
@@ -165,7 +170,7 @@ nav ul li a:hover{
 /* FOOTER */
 
 footer{
-    background:black;
+    background:#003366;
     color:white;
     text-align:center;
     padding:25px;
